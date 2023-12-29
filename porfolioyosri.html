@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    body{
+      background-image: url('image.jpg');
+    }
+    video{
+        height: 250px;
+        width:400px;
+        border-radius: 5%;
+        margin-left: 20%;   
+    }
+    .img1{
+        border-radius: 20%;
+        background-color: rgb(69, 171, 211);
+        height: 200px;
+        width: 200px;
+    }
+    audio{
+        margin-left: 20%;
+    }
+    a{font-size: larger;}
+    h1{
+        color: rgb(24, 30, 83);
+        font-style: italic;
+        font-size: x-large;
+    }
+    p{
+        color: rgb(12, 12, 11);
+        font-size: large;
+        font-style: oblique;
+    }
+    footer{background-color: rgb(106, 185, 238);
+     background-origin: initial;
+        background-position: auto;
+    }
+    #navbar a{
+        text-decoration: none;
+    }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>protfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+    <!--this is a navbar part-->
+<header>
+    <nav id="navbar" >
+    <a href="#navbar"> home</a>
+    <a href="#about">about</a>
+    <a href="#work">work</a>
+    <a href="#resume">resume</a>
+    <a href="#contact">contact</a>
+</nav>
+
+</header>
+<!--this is a about section-->
+<section id="about">
+    <h1>About</h1>
+    <table>
+    <tr>  
+   <td><img src="../gomycode/IMG_20230828_105220-removebg-preview.png" alt="imge" class="img1">   </td>
+    <td>
+        <h1 style="margin-left: 10%;">yosri_chihaoui</h1>
+        <p style="margin-left: 10%;">software developer </p> 
+            </td>
+    </tr>
+    </table>
+    </section>
+
+<!--this is a work section-->
+    <section id="work">
+        <h1 style="margin-top: 6%;font-style: italic;">work</h1>
+    <p>"This section encompasses representations of all my projects through a combination of videos, audio clips, descriptive paragraphs, and images." </p>    
+        <table style="border-spacing: 100%;">
+            <!--video-->
+            <tr>
+                <td style="font-size: medium;">This video  show  my project</td>
+                
+                <td><a href="../gomycode/video presentation.mp4"><i class="fa-brands fa-youtube fa-xl"></i></a></td>
+             
+        
+            </tr>
+            <!--audio-->
+            <tr>
+                <td style="font-size: medium;">This is my audio</td>
+                <td><audio controls><source src="../gomycode/inside-you-162760.mp3"></audio></td>
+            </tr>
+            <!--logo-->
+            <tr>
+                <td>My logo design</td>
+                <td><img src="../gomycode/Y-removebg-preview.png" alt="image" style="height: 200px;width: 300px;"></td>
+            </tr>       
+        </table>
+    </section>
+
+<!--this is a resume section-->
+    <section id="resume">
+        <article>
+        <h1 style="margin-top:6%;font-style: italic;">Resume</h1>
+        <p>My name is Yossri Chihaoui software developer currently studying at GoMyCode. I'm deeply passionate about creating innovative software solutions. My journey in software development began with a profound interest in crafting efficient and scalable applications. Exploring the intricacies of Go has been an exciting challenge, allowing me to delve into its robust capabilities for building high-performance systems. Additionally, I have hands-on experience in web development, particularly in front-end technologies like HTML, CSS, and JavaScript</p>
+    
+    </article>      
+    </section>
+
+<!--this is contact section -->
+<footer id="contact">
+    <h1 style="padding-top: 2%;">CONTACT</h1>
+   
+    <form>
+    <table style="margin-left: 3%;">
+<tr>
+    <td><label>CONTACT ME</label></td>
+    <td><input type="text" placeholder="Your Name"  ></td>
+</tr>
+<tr>
+    <td><i class="fa-sharp fa-solid fa-paper-plane"></i>exemple@gmail.com</td>
+    <td><input type="email" placeholder="Your Email"></td>
+</tr>
+<tr>
+    <td>  
+       <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook" style="color: rgb(23, 11, 131);"></i></a> 
+       <a href="https://www.instagram.com/?hl=en" target="_blank"> <i class="fa-brands fa-instagram" style="color: red;"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank"> <i class="fa-brands fa-linkedin" style="color: rgb(25, 16, 150);"></i></a>
+       <a href="https://twitter.com/" target="_blank">  <i class="fa-brands fa-twitter" style="color: rgb(40, 72, 212);"></i></a>
+    </td>
+     <td><textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea></td>
+</tr>
+<tr>
+    <td></td>
+    <td><input type="submit" value="send"></td>
+</tr>
+    </table>
+</form>
+<div style="padding-left: 90%; padding-bottom: 2%;">
+    <a href="#navbar"><i class="fa-sharp fa-solid fa-circle-arrow-up fa-xl" style="color:rgb(5, 79, 122)"></i></a>
+</div>
+</footer>
+</body>
+</html>
